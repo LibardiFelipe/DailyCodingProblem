@@ -1,4 +1,6 @@
-﻿namespace DailyCodingProblem
+﻿using DailyCodingProblem.Companies;
+
+namespace DailyCodingProblem
 {
     internal class Program
     {

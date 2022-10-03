@@ -1,4 +1,4 @@
-﻿namespace DailyCodingProblem
+﻿namespace DailyCodingProblem.Companies
 {
     public static class Google
     {
