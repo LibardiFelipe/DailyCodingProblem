@@ -24,6 +24,15 @@ namespace DailyCodingProblem
             int[] nums = { 1, 2, 3, 4, 5 };
             Console.WriteLine("{ " + $"{string.Join(", ", Uber.ProblemOne(nums))}" + " }");
 
+            /*
+             * Este desafio foi proposto pela Stripe
+             * Dado um array de inteiros, ache o primeiro número positivo inteiro faltando em um tempo linear e espaço constante.
+             * Em outras palavras, ache o menor número inteiro positivo que não exista no array (o array pode conter números duplicados e negativos também).
+             * Por exemplo, o input de [3, 4, -1, 1], deve retornar 2. O input de [1, 2, 0] deve retornar 3.
+             */
+            int[] nums2 = { 1, 2, 0 };
+            Console.WriteLine(Stripe.ProblemOne(nums2));
+
             Console.ReadLine();
         }
     }
