@@ -11,6 +11,7 @@ namespace DailyCodingProblem
              * Dado uma lista de números e um número (k), retorna true caso dois números dessa lista somados seja igual à k.
              * Por exemplo, dado [10, 15, 3, 7] e k = 17, retorna true, pois 10 + 7 é 17.
              */
+            Console.WriteLine("(Google) Desafio 1:");
             var list = new List<int> { 10, 15, 3, 7 };
             Console.WriteLine(Google.ProblemOne(list, 17));
 
@@ -21,8 +22,10 @@ namespace DailyCodingProblem
              * Por exemplo, se o input for [1, 2, 3, 4, 5], o output esperado será [120, 60, 40, 30, 24].
              * Se o input for [3, 2, 1], o output esperado será [2, 3, 6].
              */
+            Console.WriteLine();
+            Console.WriteLine("(Uber) Desafio 1:");
             int[] nums = { 1, 2, 3, 4, 5 };
-            Console.WriteLine("{ " + $"{string.Join(", ", Uber.ProblemOne(nums))}" + " }");
+            Console.WriteLine("[" + $"{string.Join(", ", Uber.ProblemOne(nums))}" + "]");
 
             /*
              * Este desafio foi proposto pela Stripe
@@ -30,6 +33,8 @@ namespace DailyCodingProblem
              * Em outras palavras, ache o menor número inteiro positivo que não exista no array (o array pode conter números duplicados e negativos também).
              * Por exemplo, o input de [3, 4, -1, 1], deve retornar 2. O input de [1, 2, 0] deve retornar 3.
              */
+            Console.WriteLine();
+            Console.WriteLine("(Stripe) Desafio 1:");
             int[] nums2 = { 1, 2, 0 };
             Console.WriteLine(Stripe.ProblemOne(nums2));
 
